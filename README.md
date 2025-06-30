@@ -14,7 +14,8 @@ Foi uma excelente experiência para reforçar habilidades de **design visual** c
 
 ## 🔍 Pré-visualização
 
-Você pode ver uma prévia do projeto [clicando aqui](#). *(Insira o link quando estiver publicado)*
+![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+
 
 ## 🛠️ Tecnologias utilizadas
 
