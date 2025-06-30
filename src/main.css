@@ -1,0 +1,135 @@
+@import url('reset.css');
+@import url('fontes.css');
+
+
+header {
+    background: url('../assets/images/banner.png'), linear-gradient(180deg, #000000 0%, #0a252ffd 30%, #000000 100%);
+    width: 100vw;
+    padding-top: 83px;
+    padding-bottom: 75px;
+    text-align: center;
+    border-bottom: solid 4px #33A8DB;
+}
+
+
+.banner-content>.logo>img {
+    background: #0000005d;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+
+.banner-content {
+    & p {
+        max-width: 550px;
+        width: 100%;
+        margin: 24px auto;
+    }
+}
+
+#course-content {
+    padding: 63px 0 144px 0;
+    text-align: center;
+    max-width: 792px;
+    width: 100%;
+    margin: auto;
+
+    & h2 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    & p {
+        font-size: 1rem;
+        margin: 24px 0;
+    }
+}
+
+#course-content>.modules-list {
+    font-size: 1rem;
+
+    & .module {
+        display: block;
+        margin: auto;
+        max-width: 535px;
+        width: 100%;
+        background-color: #252525;
+        margin-bottom: 20px;
+        padding: 16px 0;
+        border: solid 1px #33A8DB;
+        border-radius: 50px;
+        box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.492);
+
+
+        & span {
+            color: #33A8DB;
+            font-size: 1rem;
+        }
+    }
+}
+
+#transform-world {
+    background: url(../assets/images/woman-code.png);
+    padding: 111px 0 111px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: solid #33A8DB;
+    border-width: 2px 0 2px 0;
+
+
+}
+
+#transform-world>p {
+    display: inline-block;
+    width: 244px;
+    margin-left: 192px;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    font-weight: 900;
+    text-shadow: 5px 5px 0 #33A8DB;
+}
+
+
+#professional-challenges {
+    padding: 76px 0 91px 0;
+    text-align: center;
+    border-bottom: 2px solid #33A8DB;
+
+    & h2 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        display: block;
+        margin: auto;
+        max-width: 746px;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    & img {
+        display: block;
+        margin: auto;
+    }
+
+    & p {
+        margin-top: 40px;
+        font-size: 1rem;
+        display: inline-block;
+        max-width: 792px;
+        width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 59px 0 38px 0;
+    background: linear-gradient(360deg, #082d3d 0%, black 100%);
+
+    & a {
+        font-weight: bold;
+        color: #33A8DB;
+    }
+}
