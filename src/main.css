@@ -1,9 +1,12 @@
 @import url('reset.css');
-@import url('fontes.css');
+@import url('pre-definicoes.css');
 
 
 header {
     background: url('../assets/images/banner.png'), linear-gradient(180deg, #000000 0%, #0a252ffd 30%, #000000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     width: 100vw;
     padding-top: 83px;
     padding-bottom: 75px;
@@ -36,7 +39,7 @@ header {
 
     & h2 {
         font-size: 2rem;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-transform: uppercase;
     }
 
@@ -100,7 +103,7 @@ header {
 
     & h2 {
         font-size: 2rem;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         text-transform: uppercase;
         display: block;
         margin: auto;
@@ -126,7 +129,7 @@ header {
 footer {
     text-align: center;
     padding: 59px 0 38px 0;
-    background: linear-gradient(360deg, #082d3d 0%, black 100%);
+    background: linear-gradient(360deg, #010e13 0%, black 100%);
 
     & a {
         font-weight: bold;
