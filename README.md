@@ -27,4 +27,4 @@ Foi uma excelente experiência para reforçar habilidades de **design visual** c
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Jotav-code/trilha-css-desafio-01.git
